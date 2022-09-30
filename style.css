@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+  padding: 40px 0 20px 0 ;
+}
+
+li {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+
+#Los_Bandos {
+  font-size: 20px;
+  color:white ;
+  font-style: bold;
+}
+
+#darth_vader {
+  font-size: 40px;
+  color: white;
+}
+
+#droids{
+  color:white;
+}
+
+#luke_skywalker {
+  font-style: italic;
+  color: white;
+  font-size: 40px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  padding: 10px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+  ,url(imagenes/fondogalaxia.jpeg)
+}
+
+.title {
+  margin: 0;
+}
+
+.empire {
+  background-color: red;
+}
+
+.rebels {
+  background-color: rgb(0, 0, 255);
+}
+
+.soldier {
+  letter-spacing: normal;
+  border: 1px dashed rgba(15, 227, 235, 0.527); 
+}
+
+.ship {
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+.droids {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+
+.apoyo {
+  margin: 75px;
+  text-align: center;
+}
+
+ul.rebels, ul.empire {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+ul.ship li {
+  margin-top: 50px;
+}
